@@ -1,0 +1,107 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body > div {
+    min-height: 100vh;
+    min-width: 100vw;
+}
+
+section > h2{
+    font-family: 'Poppins';
+}
+
+section > p{
+    font-family: 'OPen Sans';
+    font-weight: 400;
+    font-size: 1.1em;
+    color: hsl(192, 100%, 9%);
+}
+
+section > span{
+    font-family: 'Open Sans';
+    font-weight: 700;
+    font-size: 5em;
+    color: hsl(192, 100%, 9%);
+}
+
+header {
+    display: flex;
+    padding: 20px 20px;
+    margin: 2px 2px;
+}
+
+header > .logo-top {
+    max-height: 1em;
+}
+
+header > .btn-1 {
+    margin-left: auto;
+    /* margin-bottom: 3px; */
+}
+
+.btn-1 {
+    min-width: 7em;
+    min-height: 2em;
+    border: 1px solid hsl(322, 100%, 66%);
+    border-radius: 20px;
+    background-color: #fff;
+    color: hsl(322, 100%, 66%);
+    font-family: 'Open Sans', 'sans-serif';
+    font-weight: 400;
+}
+
+.btn-2 {
+    width: 15em;
+    height: 2.5em;
+    color: #fff;
+    font-family: 'Open Sans', 'sans-serif';
+    font-weight: 600;
+    background-color: hsl(322, 100%, 66%);
+    font-size: 15px;
+    border-radius: 25px;
+    border: none;
+    box-shadow: 5px 5px #dee;
+}
+
+.sect-2-1 > img {
+    margin-bottom: -10px;
+}
+
+.main {
+   min-width: 100%;
+}
+
+section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    /* margin: 15px 5px 5px 5px; */
+}
+
+
+.sect-1 {
+    display: grid;
+    grid-template-rows: 1fr 1fr 1fr;
+}
+
+ul {
+    display: flex;
+}
+
+ul > li {
+    list-style-type: none;
+    margin: 10px;
+}
+
+.fab fa-twitter{
+    border: 5px solid #000;
+    background-color: black;
+}
+
+.sect-2-1 {
+    display: flex;
+    flex-direction: column;
+}
